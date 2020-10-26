@@ -22,8 +22,13 @@ html {
   text-transform: uppercase;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 .logo-text {
   margin-left: 10px;
+  text-decoration: none;
 }
 
 .flag {
@@ -64,6 +69,11 @@ html {
   margin-left: 10px;
 }
 
+.login-btn:hover {
+  background-color: white;
+  color: red;
+}
+
 h1 {
   font-weight: bold;
   font-size: 72px;
@@ -84,7 +94,8 @@ p {
   display: flex;
   align-items: center;
   width: 540px;
-  height: 124px;
+  padding-top: 20px;
+  padding-bottom: 10px;
   margin-bottom: 39px;
 }
 
@@ -92,13 +103,20 @@ p {
   font-weight: 600;
   font-size: 14px;
   line-height: 17px;
+  background-color: white;
+
   text-transform: uppercase;
-  color: #ed4c5c;
+  background-color: white;
+  color: red;
   padding: 16px 52px;
   border: none;
   border-radius: 7px;
   display: flex;
   align-items: center;
+}
+
+.sign:hover {
+  color: black;
 }
 
 select {
